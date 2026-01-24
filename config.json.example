@@ -1,0 +1,23 @@
+{
+    "telegram_host": "api.telegram.org",
+    "bot_token": "1145141919:AAxxxxxxxxxxxxxxxxxxxxxxxxxxdU",
+    "telegram_chat_id": "-114514",
+    "trust_command_from": [-114514],
+    "modems": [
+        {
+            "name": "Modem1",
+            "modem_ip": "192.168.1.1",
+            "type": "zxic_web_new",
+            "login_password": "admin"
+        },
+        {
+            "name": "Modem2",
+            "modem_ip": "192.168.1.2",
+            "type": "zxic_web_old",
+            "login_password": "admin"
+        }
+    ],
+    "server_chan_enabled": true,
+    "server_chan_uid": "114514",
+    "server_chan_sendkey": "sctpxxxxx514ntawmqxxxxxxxxxsycgt"
+}

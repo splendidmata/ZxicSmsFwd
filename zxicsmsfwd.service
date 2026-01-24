@@ -1,0 +1,14 @@
+[Unit]
+Description=ZXIC SMS Forwarder Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/zxic-sms-fwd
+ExecStart=/usr/bin/python3 /opt/zxic-sms-fwd/__main__.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
