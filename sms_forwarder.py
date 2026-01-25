@@ -338,6 +338,9 @@ class SmsForwarder:
                         self.init_modems()
                         # 发送初始化完成消息
                         self.send_telegram_message(chat_id, "[初始化完成]\n已重新初始化所有调制解调器")
+                    elif command == '/start':
+                        # 发送欢迎消息
+                        self.send_telegram_message(chat_id, "欢迎使用！")
                     elif command == '/get_devices':
                         # 发送设备状态，使用 send_devices_message 函数
                         self.send_devices_message(chat_id)
